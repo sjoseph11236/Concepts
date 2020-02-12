@@ -1,0 +1,16 @@
+
+
+To *BLANK* mappings between a model and a table, use the *BLANK* method.
+What is DEFINE?
+A *BLANK* is an abstraction that represents a table in your database.
+What is MODEL?
+What is the difference between Sequelize.STRING and Sequelize.TEXT?
+TEXTS are longer inputs.
+This validator makes it so a value MUST be inputted.
+What is ALLOWNULL: FALSE?
+How would one define a datatype of an ARRAY of strings in Sequelize?
+const Pug = db.define('pugs', {
+    toys: {
+        type: Sequelize.ARRAY(Sequelize.TEXT) // an array of text strings (or Sequelize.STRING)
+      }
+}

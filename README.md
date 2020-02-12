@@ -1,0 +1,7 @@
+# Concepts:
+
+### REACT: 
+
+### REDUX: 
+
+### SEQUELIZE:

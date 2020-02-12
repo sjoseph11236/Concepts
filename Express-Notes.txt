@@ -1,0 +1,121 @@
+# Express Set-up: 
+
+- create a folder
+- npm init 
+- git init 
+- Create a .gitignore file
+- Add  the following to the git if: 
+
+  node_Modules
+  .DS_STORE
+  *.log
+
+- install express witht he following command:  npm install express --save 
+-
+
+#Install 
+
+body-parser:     npm install body-parser
+
+log HTTP request middleware with:
+Morgan :
+
+
+
+
+# Notes: ____________
+
+# what is a module? 
+
+  A module is a javascript library/file that can be imported into the code using Node's require method. 
+
+https://www.sohamkamani.com/blog/2018/05/30/understanding-how-expressjs-works/
+
+
+# what is a port? 
+  A port is docking point for information to flow from a program on your computer to the internet. 
+
+# What as API? 
+
+An API is an application programming interface. It is component of the server that deals with recieving request and send responses. An api is a waiter that deals with getting your order request from the appplication to process and get information from the database to be sent back. 
+
+
+An API is an application programming interface that serves as a waiter for an application to interact directly with another applications and/or database to access underlaying service through function calls that receive requests and sends responses.
+
+
+- APIs control access to the information that client can have access to. 
+FreeCodeCamp:
+https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/
+
+
+How-To-Geek: 
+https://www.howtogeek.com/343877/what-is-an-api/
+
+Syntax EX ----> app.METHOD(PATH, HANDLER(The Middleware functions))
+
+# What is a HTTP request method? 
+  HTTP methods are GET, POST, PUT and DELETE. These are methods that interact with a certain resource throught the the middleware functions passed into the HTTP method.  
+
+
+# What is URI?
+
+  URI stands for Uniform Resource Identifer. This is the name to identify a path for a resource.  A URL deals with location. 
+
+  DEV: 
+  https://dev.to/flippedcoding/what-is-the-difference-between-a-uri-and-a-url-4455
+
+
+  # what is a Handler/ The middleware function? 
+
+  The function that is that has access to the request and response object. 
+  
+  Express: 
+  https://expressjs.com/en/guide/writing-middleware.html
+
+  # what is the listen() method? 
+
+    A Node method that creates a listener on the specified port or path. 
+
+  # what is app.use() used for? 
+
+    App.use set certain meiddlware function for specifeid paths or if no path speciified every request will call the middlware function in the app.use method.
+
+  # what is express.json() used for? 
+
+     A built-in express middleware that takes incoming request obejct and paress that data into JSON so that the data can be access and manipulated. 
+
+  # what is Router? 
+  A router is an object that is an isoltated instance of middleware and routes that is capable of performing middleware and routing functions. 
+     
+  # What is the content-type?
+  # What is the difference bet dependencies and dev-dependencies?
+  # What is the path module? 
+  # What is RESTful Routing? 
+     REST stands for Representational State Transfer. It is philosophy that paths are resources and methods represent actions to apply to thoe resources. 
+  
+  ---------------
+  # SEQUELIZE: 
+
+    # What is sequelize? 
+    
+    An object-relational Mapper that reperents tables as objects with properties and methods. It simplides the reading and writing of the SQL database.
+
+    # what is pg? 
+
+    A pg is postgresSQL client for Node that is responsilbe for creating the application's database connection.
+
+    # What is pg-hstore?
+
+    A node package for serializing and deserializing JSON data to hstore formant.
+
+    # What is a slug? 
+
+    A slug is a url-safe version of the page title, for links
+
+    # How to create a database?
+
+    In ther terminal run the command(not in psql) createdb **NAME_OF_DATABASE**
+
+    # what is a schema? 
+
+    A schema is named collection of tables. The construction of how information should be managed and access. The data is organieed in logical groups to make informaton more manageable and flexible. 

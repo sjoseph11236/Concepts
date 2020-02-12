@@ -1,0 +1,38 @@
+ ---------------
+  # SEQUELIZE: 
+
+    # What is sequelize? 
+    
+    An object-relational Mapper that reperents tables as objects with properties and methods. It simplides the reading and writing of the SQL database.
+
+    # what is pg? 
+
+    A pg is postgresSQL client for Node that is responsilbe for creating the application's database connection.
+
+    # What is pg-hstore?
+
+    A node package for serializing and deserializing JSON data to hstore formant.
+
+    # What is a slug? 
+
+    A slug is a url-safe version of the page title, for links
+
+    # How to create a database?
+
+    In the terminal run the command(not in psql) createdb **NAME_OF_DATABASE**
+
+    # what is a schema? 
+
+    A schema is named collection of tables. The construction of how information should be managed and access. The data is organieed in logical groups to make informaton more manageable and flexible. 
+
+    # what is eager Loading? 
+    Eager Loading is the joining of two tables that are associate with each other. (INNER JOIN)
+
+
+    __________________
+
+    what is componentDidMount? 
+      A life cycle method that performers and action after the component mounts. 
+    what is axios?
+
+    Axios is promise base HTTP client for the browser and Node.  
